@@ -25,22 +25,27 @@
                 <div class="modal-body">
                     <form name="contact-form">
                         <div id="alertbox"></div>
-                        <div class="my-2"><label for="FormControlInput1" class="form-label">Name</label><input
-                                type="text" name="name" class="form-control" id="FormControlInput1"
-                                pattern="[a-zA-Z][a-zA-Z ]{2,}" placeholder="Your Name" required></div>
-                        <div class="mb-2"><label for="FormControlInput2" class="form-label">Email Address</label><input
-                                type="email" name="email" class="form-control" id="FormControlInput2"
+                        <div class="my-2">
+                            <label for="FormControlInput1" class="form-label">Name</label>
+                                <input type="text" name="name" class="form-control" id="FormControlInput1"
+                                pattern="[a-zA-Z][a-zA-Z ]{2,}" placeholder="Your Name" required>
+                        </div>
+                        <div class="mb-2">
+                            <label for="FormControlInput2" class="form-label">Email Address</label>
+                                <input type="email" name="email" class="form-control" id="FormControlInput2"
                                 pattern="[a-zA-Z0-9.-_]{1,}@[a-zA-Z.-]{2,}[.]{1}[a-zA-Z]{2,}" placeholder="Your Email"
-                                required></div>
-                        <div class="mb-2"><label for="FormControlTextarea" class="form-label">Message</label><textarea
+                                required>
+                        </div>
+                        <div class="mb-2">
+                            <label for="FormControlTextarea" class="form-label">Message</label><textarea
                                 class="form-control" name="message" id="FormControlTextarea" rows="4"
                                 placeholder="Your Message" required></textarea></div>
                         <div class="mb-2">
-                            <div class="modal-footer"><button type="submit" class="btn btn-dark btn_Send"><i
-                                        class="fa fa-send"></i></button><button type="submit"
-                                    class="btn btn-dark btn_Loading d-none" disabled><span
-                                        class="spinner-border spinner-border-sm" role="status"
-                                        aria-hidden="true"></span></button></div>
+                            <div class="modal-footer">
+                                <button type="submit" id="btn-sss" class="btn btn-dark">
+                                    <i class="fa fa-send"></i>
+                                </button>
+                            </div>
                         </div>
                     </form>
                 </div>
