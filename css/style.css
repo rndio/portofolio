@@ -96,17 +96,17 @@ figure a:hover {
     transition: .3s
 }
 
-.soslog .fa-facebook-square {
+.soslog .fa-facebook-f {
     background: #3B5998;
     color: white
 }
 
-.soslog .fa-twitter-square {
+.soslog .fa-twitter {
     background: #55ACEE;
     color: white
 }
 
-.soslog .fa-blogger {
+.soslog .fa-blogger-b {
     background: orangered;
     color: white
 }
