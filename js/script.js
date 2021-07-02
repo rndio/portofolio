@@ -136,7 +136,7 @@ function btnSend() {
 function btnLoading() {
     const a = document.getElementById("btn-sss");
     a.disabled = true
-    a.innerHTML = '<i class="fa fa-spinner fa-pulse"></i>'
+    a.innerHTML = '<i class="fas fa-minus fa-spin"></i>'
 }
 
 form.addEventListener("submit", (e => {
