@@ -10,6 +10,8 @@
     <title>Rendio Simamora</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.2.0/css/all.css">
+    <script src="https://hcaptcha.com/1/api.js" async defer></script>
 </head>
 
 <body id="particles-js">
@@ -21,7 +23,7 @@
                     <button type="button" class="btn-close" onclick="resetForm()" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <form name="contact-form">
+                    <form name="contact-form" method="POST">
                         <div id="alertbox"></div>
                         <div class="my-2">
                             <label for="FormControlInput1" class="form-label">Name</label>
@@ -36,11 +38,16 @@
                             <label for="FormControlTextarea" class="form-label">Message</label>
                             <textarea class="form-control" name="message" id="FormControlTextarea" rows="4" placeholder="Your Message" required></textarea>
                         </div>
+                        <hr>
                         <div class="mb-2">
-                            <div class="modal-footer">
-                                <button type="submit" id="btn-sss" class="btn btn-dark">
-                                    <i class="fa fa-send"></i>
-                                </button>
+                            <div class="modal-footer d-block">
+                                <div class="d-md-flex justify-content-md-between text-center">
+                                    <div class="h-captcha" data-sitekey="5a109f99-85c9-4104-a2c7-c64100a00ab4"></div>
+                                        <!-- <button type="submit" class="btn btn-dark">Send<i style="margin-left: .7em;" class="fas fa-paper-plane"></i></button> -->
+                                    <button type="submit" id="btn-sss" class="btn btn-dark">
+                                        <i class="fas fa-paper-plane"></i>
+                                    </button>
+                                </div>
                             </div>
                         </div>
                     </form>
@@ -64,7 +71,7 @@
     <div class="position-absolute bottom-0 start-50 translate-middle-x love">Made with <i class="fa fa-heart"></i></div>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/particles.min.js"></script>
-    <script src="https://kit.fontawesome.com/f9ad470b69.js" crossorigin="anonymous"></script>
+    <!-- <script src="https://kit.fontawesome.com/f9ad470b69.js" crossorigin="anonymous"></script> -->
     <script src="js/script.js"></script>
 </body>
 

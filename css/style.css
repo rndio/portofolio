@@ -126,17 +126,17 @@ figure a:hover {
 }
 
 .modal-footer {
-    padding: 5px 0;
+    padding: 0;
     margin-right: 5px;
     border: none;
     box-sizing: border-box
 }
 
 .modal-footer button {
-    width: 42px;
+    width: auto;
     height: 42px;
-    padding: 0;
-    margin: 0;
+    padding: 10px auto;
+    margin: auto 0px;
     box-sizing: border-box
 }
 
